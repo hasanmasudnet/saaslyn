@@ -9,62 +9,10 @@
 
 // Output CSS variables
 :root {
-  --primary-text-color: #1a1a1a;
-  --primary-color: #7397e9;
-  --primary-color-rgb: 115, 151, 233;
-  --primary-color-2: #4642FC;
-  --primary-color-2-rgb: 70, 66, 252;
-  --secondary-color: #5a7bd8;
-  --secondary-color-rgb: 90, 123, 216;
-  --secondary-color-2: #030303;
-  --secondary-color-2-rgb: 3, 3, 3;
-  --third-color: #eff7fb;
-  --third-color-rgb: 239, 247, 251;
-  --body-color: #fff;
-  --body-text-color: #000;
-  --bg-color-1: #0f171d;
-  --bg-color-2: #040a10;
-  --bg-color-2-rgb: 4, 10, 16;
-  --bg-color-3: #171f26;
-  --text-color-main: #000;
-  --text-color-main-rgb: 0, 0, 0;
-  --color-black: #000;
-  --color-black-rgb: 0, 0, 0;
-  --color-white: #fff;
-  --color-white-rgb: 255,255,255;
-}
-
-[data-theme="light"] {
-  --primary-text-color: #1a1a1a;
-  --primary-color: #7397e9;
-  --primary-color-rgb: 115, 151, 233;
-  --primary-color-2: #4642FC;
-  --primary-color-2-rgb: 70, 66, 252;
-  --secondary-color: #5a7bd8;
-  --secondary-color-rgb: 90, 123, 216;
-  --secondary-color-2: #030303;
-  --secondary-color-2-rgb: 3, 3, 3;
-  --third-color: #eff7fb;
-  --third-color-rgb: 239, 247, 251;
-  --body-color: #fff;
-  --body-text-color: #000;
-  --bg-color-1: #0f171d;
-  --bg-color-2: #040a10;
-  --bg-color-2-rgb: 4, 10, 16;
-  --bg-color-3: #171f26;
-  --text-color-main: #000;
-  --text-color-main-rgb: 0, 0, 0;
-  --color-black: #000;
-  --color-black-rgb: 0, 0, 0;
-  --color-white: #fff;
-  --color-white-rgb: 255,255,255;
-}
-
-[data-theme="dark"] {
   --primary-text-color: #050d14;
   --primary-color: #7397e9;
   --primary-color-rgb: 115, 151, 233;
-  --primary-color-2: #4642FC;
+  --primary-color-2: #4642fc;
   --primary-color-2-rgb: 70, 66, 252;
   --secondary-color: #d1d7f5;
   --secondary-color-rgb: 209, 215, 245;
@@ -85,7 +33,7 @@
   --color-black-2: #060606;
   --color-black-2-rgb: 6, 6, 6;
   --color-white: #fff;
-  --color-white-rgb: 255,255,255;
+  --color-white-rgb: 255, 255, 255;
 }
 
 // --------------------------------------------------
