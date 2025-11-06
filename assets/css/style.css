@@ -4235,6 +4235,9 @@ p {
   line-height: 108.333%;
   letter-spacing: -0.48px;
 }
+.features__item .item-content .item-title a {
+  font: inherit;
+}
 .features__item .item-content p {
   font-weight: 500;
   line-height: 122.222%;
@@ -4248,6 +4251,7 @@ p {
   width: 100%;
   height: 100%;
   opacity: 0;
+  pointer-events: none;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;

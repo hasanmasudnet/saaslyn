@@ -78,6 +78,10 @@
         font-weight: 700;
         line-height: 108.333%;
         letter-spacing: -0.48px;
+
+        a {
+          font: inherit;
+        }
       }
       p {
         font-weight: 500;
@@ -94,6 +98,7 @@
       width: 100%;
       height: 100%;
       opacity: 0;
+      pointer-events: none;
       @include transition($transition);
     }
     &:hover,
