@@ -1302,7 +1302,39 @@
   // Call the function
   initGSAPSmoothScroll();
 
-  // ...existing code...
+  // Enable Smooth Scrolling With GSAP
+  const enableSmoothScrollingWithGSAP = (
+    offset = 70,
+    duration = 0.2,
+    ease = "power2.inOut"
+  ) => {
+    const anchors = document.querySelectorAll('a[href^="#"]');
+
+    if (!anchors.length) return;
+
+    anchors.forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        const targetId = this.getAttribute("href");
+        if (!targetId || targetId === "#") return;
+
+        const targetElement = document.querySelector(targetId);
+        console.log(targetId);
+
+        if (targetElement) {
+          e.preventDefault();
+          gsap.to(window, {
+            duration: duration,
+            scrollTo: {
+              y: targetElement,
+              offsetY: offset,
+            },
+            ease: ease,
+          });
+        }
+      });
+    });
+  };
+  enableSmoothScrollingWithGSAP();
 
   const GSAPWorkIntegrateAnimation = () => {
     const tl = gsap.timeline({ repeat: -1, yoyo: true });

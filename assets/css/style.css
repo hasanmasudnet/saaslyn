@@ -10110,6 +10110,50 @@ p {
   opacity: 0.7;
 }
 
+.privacy-policy.section {
+  background-color: var(--bg-color-1);
+}
+.privacy-policy .terms-title {
+  margin-bottom: 15px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+@media only screen and (min-width: 1400px) {
+  .privacy-policy .table-content {
+    padding-left: 30px;
+  }
+}
+.privacy-policy .table-content ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.privacy-policy .table-content ul li a {
+  font-family: "Urbanist", sans-serif;
+  font-size: 22px;
+  line-height: 150%;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.condition-content .terms-inner-desc {
+  margin-top: 10px;
+}
+.condition-content .terms-desc {
+  color: var(--text-color-main);
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 137.5%;
+  letter-spacing: -0.32px;
+  opacity: 0.72;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.condition-content:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .saaslyn-1-btn {
   z-index: 2;
   height: max-content;
